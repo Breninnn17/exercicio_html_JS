@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(31, 177, 193, 0.6);
+    ;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    padding: 9%;
+    }
+
+form h2{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: large;
+    color: violet;
+}
+
+form input#campoA{
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    border-radius:5px;
+}
+
+form input#campoB{
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    border-radius:5px;
+} 
+
+form button{
+    padding: 12px;
+    border-radius: 5px;
+    color: violet;
+    background-color:rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    font-size: unset;
+}
+
+
+#resultado.sucesso{
+    padding: 22px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color:rgba(30, 255, 0, 0.4);
+    font-family: sans-serif;
+    font-size: unset;
+}
+
+#resultado.erro{
+    padding: 22px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color:rgba(255, 0, 0, 0.4);
+    font-family: sans-serif;
+    font-size: unset;
+}
